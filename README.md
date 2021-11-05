@@ -1,2 +1,3 @@
 # python_testing_kirk_byers
-Merge conflict
+Adding the content to Readme file.
+
