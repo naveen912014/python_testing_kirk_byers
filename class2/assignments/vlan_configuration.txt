@@ -1,0 +1,33 @@
+(py3_venv) [naveennallu@pylab26a assignments]$ python3 netmiko_ex5_send_config_file.py 
+Password: 
+cisco3#
+
+################################################################################
+CFG Change: 
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+cisco3(config)#vlan 500
+cisco3(config-vlan)#  name blue500
+cisco3(config-vlan)#vlan 501
+cisco3(config-vlan)#  name blue501
+cisco3(config-vlan)#vlan 502
+cisco3(config-vlan)#  name blue502
+cisco3(config-vlan)#vlan 503
+cisco3(config-vlan)#  name blue503
+cisco3(config-vlan)#vlan 504
+cisco3(config-vlan)#  name blue504
+cisco3(config-vlan)#end
+cisco3#
+################################################################################
+
+
+################################################################################
+CFG Change: 
+write mem
+Building configuration...
+
+[OK]
+cisco3#
+################################################################################
+
+(py3_venv) [naveennallu@pylab26a assignments]$
